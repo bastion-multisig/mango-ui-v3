@@ -41,6 +41,7 @@ import {
 import { HuobiWalletAdapter } from '@solana/wallet-adapter-huobi'
 import useSpotBalances from 'hooks/useSpotBalances'
 import Layout from 'components/Layout'
+import { WalletConnectWalletAdapter } from '@bastion-multisig/wallet-adapter'
 
 const SENTRY_URL = process.env.NEXT_PUBLIC_SENTRY_URL
 if (SENTRY_URL) {
@@ -146,6 +147,7 @@ const PageTitle = () => {
 function App({ Component, pageProps }) {
   const wallets = useMemo(
     () => [
+      new WalletConnectWalletAdapter({ options: {} }),
       new PhantomWalletAdapter(),
       new SolflareWalletAdapter(),
       new ExodusWalletAdapter(),
