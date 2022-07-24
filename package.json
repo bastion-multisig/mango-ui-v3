@@ -18,7 +18,7 @@
     "analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
-    "@bastion-multisig/wallet-adapter": "^0.2.7",
+    "@bastion-multisig/wallet-adapter": "^0.2.8",
     "@blockworks-foundation/mango-client": "^3.6.9",
     "@headlessui/react": "^0.0.0-insiders.2dbc38c",
     "@heroicons/react": "^1.0.0",
