@@ -17,7 +17,7 @@ import { notify } from '../utils/notifications'
 import {
   getMarketIndexBySymbol,
   ReferrerIdRecord,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { useTranslation } from 'next-i18next'
 import EmptyState from '../components/EmptyState'
 import {

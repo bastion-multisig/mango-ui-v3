@@ -40,7 +40,7 @@ import {
   setStoreSelector,
 } from '../stores/selectors'
 import { Market } from '@project-serum/serum'
-import { PerpMarket } from '@blockworks-foundation/mango-client'
+import { PerpMarket } from '@bastion-multisig/mango-client'
 
 const Line = (props) => {
   return (

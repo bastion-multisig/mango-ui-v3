@@ -1,4 +1,4 @@
-import { MangoAccount } from '@blockworks-foundation/mango-client'
+import { MangoAccount } from '@bastion-multisig/mango-client'
 import { useEffect, useState } from 'react'
 import useMangoStore from '../stores/useMangoStore'
 import Select from './Select'

@@ -8,7 +8,7 @@ import {
   PerpMarket,
   MangoAccount,
   I80F48,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { Market, Orderbook } from '@project-serum/serum'
 import { Order } from '@project-serum/serum/lib/market'
 import { PerpTriggerOrder } from '../@types/types'

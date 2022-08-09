@@ -23,7 +23,7 @@ import { connectionSelector, mangoGroupSelector } from '../stores/selectors'
 import {
   ReferrerIdRecordLayout,
   ReferrerIdRecord,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import useTradeHistory from '../hooks/useTradeHistory'
 import * as Sentry from '@sentry/react'
 import { BrowserTracing } from '@sentry/tracing'

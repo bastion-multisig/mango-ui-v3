@@ -7,7 +7,7 @@ import {
   UsersIcon,
 } from '@heroicons/react/solid'
 import useMangoStore from '../stores/useMangoStore'
-import { MangoAccount, MangoGroup } from '@blockworks-foundation/mango-client'
+import { MangoAccount, MangoGroup } from '@bastion-multisig/mango-client'
 import { abbreviateAddress, formatUsdValue } from '../utils'
 import useLocalStorageState from '../hooks/useLocalStorageState'
 import Modal from './Modal'

@@ -1,6 +1,6 @@
 import { FunctionComponent, useState } from 'react'
 import useMangoStore from '../stores/useMangoStore'
-import { PerpMarket, ZERO_BN } from '@blockworks-foundation/mango-client'
+import { PerpMarket, ZERO_BN } from '@bastion-multisig/mango-client'
 import Button, { LinkButton } from './Button'
 import { notify } from '../utils/notifications'
 import Loading from './Loading'

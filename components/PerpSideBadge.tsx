@@ -1,4 +1,4 @@
-import { PerpAccount, ZERO_BN } from '@blockworks-foundation/mango-client'
+import { PerpAccount, ZERO_BN } from '@bastion-multisig/mango-client'
 import SideBadge from './SideBadge'
 
 const PerpSideBadge = ({ perpAccount }: { perpAccount: PerpAccount }) => (

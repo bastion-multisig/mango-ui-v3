@@ -12,7 +12,7 @@ import {
 import { InformationCircleIcon, ScaleIcon } from '@heroicons/react/solid'
 import useDimensions from 'react-cool-dimensions'
 import { useTranslation } from 'next-i18next'
-import { ZERO_BN } from '@blockworks-foundation/mango-client'
+import { ZERO_BN } from '@bastion-multisig/mango-client'
 import ButtonGroup from '../ButtonGroup'
 import { formatUsdValue } from '../../utils'
 import { numberCompacter } from '../SwapTokenInfo'

@@ -13,7 +13,7 @@ import WithdrawMsrmModal from '../components/WithdrawMsrmModal'
 import { useState } from 'react'
 import { LinkButton } from '../components/Button'
 import useMangoStore from '../stores/useMangoStore'
-import { msrmMints, ZERO_BN } from '@blockworks-foundation/mango-client'
+import { msrmMints, ZERO_BN } from '@bastion-multisig/mango-client'
 import useFees from '../hooks/useFees'
 import { useWallet } from '@solana/wallet-adapter-react'
 

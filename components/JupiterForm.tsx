@@ -29,7 +29,7 @@ import {
   getTokenAccountsByOwnerWithWrappedSol,
   nativeToUi,
   zeroKey,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import Button, { IconButton, LinkButton } from './Button'
 import { useViewport } from '../hooks/useViewport'
 import { breakpoints } from './TradePageGrid'

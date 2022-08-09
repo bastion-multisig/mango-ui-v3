@@ -17,7 +17,7 @@ import {
   TrashIcon,
   UsersIcon,
 } from '@heroicons/react/solid'
-import { nativeToUi, ZERO_BN } from '@blockworks-foundation/mango-client'
+import { nativeToUi, ZERO_BN } from '@bastion-multisig/mango-client'
 import useMangoStore, { serumProgramId, MNGO_INDEX } from 'stores/useMangoStore'
 import AccountOrders from 'components/account_page/AccountOrders'
 import AccountHistory from 'components/account_page/AccountHistory'

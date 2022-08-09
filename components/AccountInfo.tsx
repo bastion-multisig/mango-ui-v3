@@ -5,7 +5,7 @@ import {
   QUOTE_INDEX,
   ZERO_BN,
   ZERO_I80F48,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { useCallback, useState } from 'react'
 import {
   BellIcon,

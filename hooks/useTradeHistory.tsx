@@ -1,4 +1,4 @@
-import { getMarketByPublicKey } from '@blockworks-foundation/mango-client'
+import { getMarketByPublicKey } from '@bastion-multisig/mango-client'
 import { PublicKey } from '@solana/web3.js'
 import BigNumber from 'bignumber.js'
 import { useEffect } from 'react'

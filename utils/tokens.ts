@@ -1,4 +1,4 @@
-import { TokenAccountLayout } from '@blockworks-foundation/mango-client'
+import { TokenAccountLayout } from '@bastion-multisig/mango-client'
 import { PublicKey, Connection } from '@solana/web3.js'
 
 export const TOKEN_PROGRAM_ID = new PublicKey(

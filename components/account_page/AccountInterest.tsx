@@ -1,4 +1,4 @@
-import { getTokenBySymbol } from '@blockworks-foundation/mango-client'
+import { getTokenBySymbol } from '@bastion-multisig/mango-client'
 import { useEffect, useMemo, useState } from 'react'
 import dayjs from 'dayjs'
 import useMangoStore from '../../stores/useMangoStore'

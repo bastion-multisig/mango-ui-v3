@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { SwitchHorizontalIcon } from '@heroicons/react/solid'
-import { getWeights } from '@blockworks-foundation/mango-client'
+import { getWeights } from '@bastion-multisig/mango-client'
 import useMangoStore from '../../stores/useMangoStore'
 import AdvancedTradeForm from './AdvancedTradeForm'
 import SimpleTradeForm from './SimpleTradeForm'

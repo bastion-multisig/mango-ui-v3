@@ -10,7 +10,7 @@ import {
   PerpMarket,
   ReferrerMemory,
   ReferrerMemoryLayout,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import {
   actionsSelector,
   connectionSelector,

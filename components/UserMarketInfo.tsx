@@ -1,4 +1,4 @@
-import { PerpMarket } from '@blockworks-foundation/mango-client'
+import { PerpMarket } from '@bastion-multisig/mango-client'
 import useMangoStore from '../stores/useMangoStore'
 import MarketBalances from './MarketBalances'
 import MarketPosition from './MarketPosition'

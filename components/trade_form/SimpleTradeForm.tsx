@@ -5,7 +5,7 @@ import {
   getMarketIndexBySymbol,
   I80F48,
   PerpMarket,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { notify } from '../../utils/notifications'
 import { calculateTradePrice, getDecimalCount, sleep } from '../../utils'
 import { floorToDecimal, capitalize } from '../../utils/index'

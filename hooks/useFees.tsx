@@ -3,7 +3,7 @@ import {
   getMarketIndexBySymbol,
   getSpotMarketByBaseSymbol,
   PerpMarket,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import useSrmAccount from '../hooks/useSrmAccount'
 import { mangoGroupConfigSelector } from '../stores/selectors'
 import useMangoStore from '../stores/useMangoStore'

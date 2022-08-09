@@ -10,7 +10,7 @@ import {
   getMarketByBaseSymbolAndKind,
   getTokenBySymbol,
   PerpMarket,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 
 import TradeHistoryTable from '../TradeHistoryTable'
 import useMangoStore from '../../stores/useMangoStore'

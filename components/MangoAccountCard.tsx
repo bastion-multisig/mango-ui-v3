@@ -1,4 +1,4 @@
-import { MangoAccount, MangoGroup } from '@blockworks-foundation/mango-client'
+import { MangoAccount, MangoGroup } from '@bastion-multisig/mango-client'
 import {
   ArrowSmDownIcon,
   ArrowSmUpIcon,

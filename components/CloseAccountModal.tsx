@@ -18,7 +18,7 @@ import {
   zeroKey,
   ZERO_BN,
   ZERO_I80F48,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { formatUsdValue } from '../utils'
 import { useWallet } from '@solana/wallet-adapter-react'
 

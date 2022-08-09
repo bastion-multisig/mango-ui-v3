@@ -5,8 +5,8 @@ import {
   createRef,
   useState,
 } from 'react'
-// import { getWeights, MarketConfig } from '@blockworks-foundation/mango-client'
-import { MarketConfig } from '@blockworks-foundation/mango-client'
+// import { getWeights, MarketConfig } from '@bastion-multisig/mango-client'
+import { MarketConfig } from '@bastion-multisig/mango-client'
 
 import useMangoStore from '../stores/useMangoStore'
 import Modal from './Modal'
@@ -24,7 +24,7 @@ import {
 import {
   getMarketIndexBySymbol,
   ReferrerIdRecord,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import Button from './Button'
 import Switch from './Switch'
 import { roundPerpSize } from 'utils'

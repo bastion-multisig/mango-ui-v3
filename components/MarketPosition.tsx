@@ -11,7 +11,7 @@ import {
   PerpAccount,
   PerpMarket,
   QUOTE_INDEX,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { notify } from '../utils/notifications'
 import MarketCloseModal from './MarketCloseModal'
 import PnlText from './PnlText'

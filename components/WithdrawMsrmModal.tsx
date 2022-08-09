@@ -4,7 +4,7 @@ import Button, { LinkButton } from './Button'
 import { notify } from '../utils/notifications'
 import Loading from './Loading'
 import Modal from './Modal'
-import { msrmMints } from '@blockworks-foundation/mango-client'
+import { msrmMints } from '@bastion-multisig/mango-client'
 import { useTranslation } from 'next-i18next'
 import { useWallet } from '@solana/wallet-adapter-react'
 

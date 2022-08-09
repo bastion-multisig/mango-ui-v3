@@ -12,7 +12,7 @@ import {
   PerpOrder,
   PerpMarket,
   MarketConfig,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { formatUsdValue, getDecimalCount, usdFormatter } from '../utils'
 import { Table, Td, Th, TrBody, TrHead } from './TableElements'
 import { useViewport } from '../hooks/useViewport'

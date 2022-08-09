@@ -1,4 +1,4 @@
-import { MangoAccountLayout } from '@blockworks-foundation/mango-client'
+import { MangoAccountLayout } from '@bastion-multisig/mango-client'
 import {
   ChevronRightIcon,
   UserGroupIcon,

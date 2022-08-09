@@ -1,4 +1,4 @@
-import { MangoAccount, TokenAccount } from '@blockworks-foundation/mango-client'
+import { MangoAccount, TokenAccount } from '@bastion-multisig/mango-client'
 import { Wallet } from '@solana/wallet-adapter-react'
 import { PublicKey } from '@solana/web3.js'
 import useMangoStore from '../stores/useMangoStore'

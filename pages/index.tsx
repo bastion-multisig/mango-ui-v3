@@ -4,7 +4,7 @@ import useMangoStore, { serumProgramId } from '../stores/useMangoStore'
 import {
   getMarketByBaseSymbolAndKind,
   getMarketIndexBySymbol,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import TradePageGrid from '../components/TradePageGrid'
 import useLocalStorageState from '../hooks/useLocalStorageState'
 import AlphaModal, { ALPHA_MODAL_KEY } from '../components/AlphaModal'

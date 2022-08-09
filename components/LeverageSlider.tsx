@@ -9,7 +9,7 @@ export {}
 //   getWeights,
 //   I80F48,
 //   PerpMarket,
-// } from '@blockworks-foundation/mango-client'
+// } from '@bastion-multisig/mango-client'
 // import tw from 'twin.macro'
 // import styled from '@emotion/styled'
 // import 'rc-slider/assets/index.css'

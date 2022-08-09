@@ -1,4 +1,4 @@
-import { MangoAccount } from '@blockworks-foundation/mango-client'
+import { MangoAccount } from '@bastion-multisig/mango-client'
 import { RadioGroup } from '@headlessui/react'
 import { CheckCircleIcon } from '@heroicons/react/outline'
 import useLocalStorageState from 'hooks/useLocalStorageState'

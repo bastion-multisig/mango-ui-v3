@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { I80F48 } from '@blockworks-foundation/mango-client'
+import { I80F48 } from '@bastion-multisig/mango-client'
 import useMangoStore from '../stores/useMangoStore'
 import { tokenPrecision } from '../utils'
 

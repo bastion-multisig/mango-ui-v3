@@ -18,7 +18,7 @@ import {
   getTokenBySymbol,
   getMarketByPublicKey,
   QUOTE_INDEX,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import Switch from '../components/Switch'
 import Slider from 'rc-slider'
 import 'rc-slider/assets/index.css'

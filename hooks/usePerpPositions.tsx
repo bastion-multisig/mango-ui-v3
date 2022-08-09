@@ -7,7 +7,7 @@ import {
   nativeI80F48ToUi,
   PerpMarket,
   PerpMarketConfig,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import {
   mangoCacheSelector,
   mangoGroupConfigSelector,

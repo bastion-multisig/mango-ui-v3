@@ -15,7 +15,7 @@ import { useTranslation } from 'next-i18next'
 import ButtonGroup from './ButtonGroup'
 import { useWallet } from '@solana/wallet-adapter-react'
 import MangoAccountSelect from './MangoAccountSelect'
-import { MangoAccount } from '@blockworks-foundation/mango-client'
+import { MangoAccount } from '@bastion-multisig/mango-client'
 
 interface DepositModalProps {
   onClose: () => void

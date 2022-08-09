@@ -4,7 +4,7 @@ import {
   getMultipleAccounts,
   nativeToUi,
   zeroKey,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import {
   MSRM_DECIMALS,
   SRM_DECIMALS,

@@ -1,5 +1,5 @@
 import useMangoStore from '../stores/useMangoStore'
-import { MangoAccount } from '@blockworks-foundation/mango-client'
+import { MangoAccount } from '@bastion-multisig/mango-client'
 import shallow from 'zustand/shallow'
 
 export default function useMangoAccount(): {

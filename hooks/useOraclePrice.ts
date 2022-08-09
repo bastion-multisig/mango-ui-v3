@@ -1,4 +1,4 @@
-import { I80F48 } from '@blockworks-foundation/mango-client'
+import { I80F48 } from '@bastion-multisig/mango-client'
 import { useCallback, useEffect, useState } from 'react'
 import useMangoStore from '../stores/useMangoStore'
 

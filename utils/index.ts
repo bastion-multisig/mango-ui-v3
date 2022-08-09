@@ -1,10 +1,10 @@
-import { I80F48 } from '@blockworks-foundation/mango-client'
+import { I80F48 } from '@bastion-multisig/mango-client'
 import { TOKEN_MINTS } from '@project-serum/serum'
 import { PublicKey } from '@solana/web3.js'
 import BN from 'bn.js'
 import { TRIGGER_ORDER_TYPES } from '../components/trade_form/AdvancedTradeForm'
 import { Orderbook } from '../stores/useMangoStore'
-import { MarketKind } from '@blockworks-foundation/mango-client'
+import { MarketKind } from '@bastion-multisig/mango-client'
 import BigNumber from 'bignumber.js'
 
 export async function sleep(ms) {

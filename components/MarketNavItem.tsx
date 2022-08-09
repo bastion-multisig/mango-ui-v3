@@ -6,7 +6,7 @@ import useMangoStore from '../stores/useMangoStore'
 import {
   getMarketIndexBySymbol,
   getWeights,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 
 interface MarketNavItemProps {
   market: any

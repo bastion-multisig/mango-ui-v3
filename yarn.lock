@@ -1015,6 +1015,24 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@bastion-multisig/mango-client@^3.6.14":
+  version "3.6.14"
+  resolved "https://registry.yarnpkg.com/@bastion-multisig/mango-client/-/mango-client-3.6.14.tgz#df91c4c0ed63dfafc6e9d3efea82da3673906e52"
+  integrity sha512-AMTPMl0AHV8IMqe2ymuWWtWUk9QTFRpdFnfVM7I01iiT72dFR32dpHjEDIeBgOcaT/iQCwcHN2SQPT3ixQxbjg==
+  dependencies:
+    "@project-serum/anchor" "^0.21.0"
+    "@project-serum/serum" "^0.13.65"
+    "@project-serum/sol-wallet-adapter" "^0.2.0"
+    "@solana/spl-token" "^0.1.6"
+    "@solana/web3.js" "^1.43.5"
+    big.js "^6.1.1"
+    bn.js "^5.1.0"
+    buffer-layout "^1.2.1"
+    cross-fetch "^3.1.5"
+    dotenv "^10.0.0"
+    toformat "^2.0.0"
+    yargs "^17.0.1"
+
 "@bastion-multisig/solana-wallet@^2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@bastion-multisig/solana-wallet/-/solana-wallet-2.0.5.tgz#9fdfafce1b20b2ef51773c519f10f8bcc797993c"
@@ -1037,24 +1055,6 @@
     "@walletconnect/legacy-utils" "2.0.0-beta.26"
     "@walletconnect/types" "2.0.0-beta.26"
     "@walletconnect/utils" "2.0.0-beta.26"
-
-"@blockworks-foundation/mango-client@^3.6.9":
-  version "3.6.9"
-  resolved "https://registry.yarnpkg.com/@blockworks-foundation/mango-client/-/mango-client-3.6.9.tgz#4f98e0d5f9de6434720087dcf5d0b3c96b2081b6"
-  integrity sha512-soTPI/BZ4Ad+XetkUqrw1K1kgUaNkAnzO98R9OafeRMP1Xh+RAnPOTS8h5/pN7J8fmGHI1kpDcSCfHNGQgSSvg==
-  dependencies:
-    "@project-serum/anchor" "^0.21.0"
-    "@project-serum/serum" "^0.13.65"
-    "@project-serum/sol-wallet-adapter" "^0.2.0"
-    "@solana/spl-token" "^0.1.6"
-    "@solana/web3.js" "^1.43.5"
-    big.js "^6.1.1"
-    bn.js "^5.1.0"
-    buffer-layout "^1.2.1"
-    cross-fetch "^3.1.5"
-    dotenv "^10.0.0"
-    toformat "^2.0.0"
-    yargs "^17.0.1"
 
 "@blocto/sdk@^0.2.21":
   version "0.2.22"
@@ -7444,9 +7444,9 @@ yargs-parser@^13.1.2:
     decamelize "^1.2.0"
 
 yargs-parser@^21.0.0:
-  version "21.0.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
-  integrity sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg==
+  version "21.1.1"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
+  integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
 
 yargs@^13.2.4:
   version "13.3.2"

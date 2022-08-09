@@ -28,7 +28,7 @@ import {
   I80F48,
   PerpAccount,
   PerpMarketConfig,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { AccountInfo, Commitment, Connection, PublicKey } from '@solana/web3.js'
 import { EndpointInfo } from '../@types/types'
 import { isDefined, zipDict } from '../utils'
@@ -48,7 +48,7 @@ import { getTokenAccountsByMint } from 'utils/tokens'
 import { getParsedNftAccountsByOwner } from 'utils/getParsedNftAccountsByOwner'
 import { sign } from 'tweetnacl'
 import bs58 from 'bs58'
-import { PerpMarketInfo } from '@blockworks-foundation/mango-client'
+import { PerpMarketInfo } from '@bastion-multisig/mango-client'
 
 export const ENDPOINTS: EndpointInfo[] = [
   {

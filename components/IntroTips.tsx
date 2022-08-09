@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Steps } from 'intro.js-react'
 import { withTranslation } from 'react-i18next'
-import { MangoAccount } from '@blockworks-foundation/mango-client'
+import { MangoAccount } from '@bastion-multisig/mango-client'
 import AccountsModal from './AccountsModal'
 
 export const SHOW_TOUR_KEY = 'showTour'

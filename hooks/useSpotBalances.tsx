@@ -3,11 +3,11 @@ import {
   nativeI80F48ToUi,
   nativeToUi,
   QUOTE_INDEX,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import useMangoStore, { SpotBalance } from '../stores/useMangoStore'
 import { i80f48ToPercent } from '../utils/index'
 import sumBy from 'lodash/sumBy'
-import { I80F48 } from '@blockworks-foundation/mango-client'
+import { I80F48 } from '@bastion-multisig/mango-client'
 import useMangoAccount from './useMangoAccount'
 import { useEffect } from 'react'
 

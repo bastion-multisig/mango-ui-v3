@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react'
-import { PerpMarket } from '@blockworks-foundation/mango-client'
+import { PerpMarket } from '@bastion-multisig/mango-client'
 import useMangoStore from '../../stores/useMangoStore'
 import { useTranslation } from 'next-i18next'
 import { capitalize } from '../../utils'

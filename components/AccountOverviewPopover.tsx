@@ -6,7 +6,7 @@ import {
   nativeI80F48ToUi,
   QUOTE_INDEX,
   ZERO_I80F48,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { abbreviateAddress, formatUsdValue, usdFormatter } from 'utils'
 import { DataLoader } from './MarketPosition'
 

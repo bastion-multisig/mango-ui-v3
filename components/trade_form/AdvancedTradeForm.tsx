@@ -10,7 +10,7 @@ import {
   PerpMarket,
   PerpOrderType,
   ZERO_I80F48,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import { ExclamationIcon, InformationCircleIcon } from '@heroicons/react/solid'
 import { notify } from '../../utils/notifications'
 import {

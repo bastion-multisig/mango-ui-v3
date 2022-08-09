@@ -3,7 +3,7 @@ import {
   getTokenBySymbol,
   ZERO_I80F48,
   I80F48,
-} from '@blockworks-foundation/mango-client'
+} from '@bastion-multisig/mango-client'
 import useMangoStore from '../../stores/useMangoStore'
 import {
   formatUsdValue,
