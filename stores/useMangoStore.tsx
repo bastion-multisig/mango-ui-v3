@@ -53,8 +53,12 @@ import { PerpMarketInfo } from '@bastion-multisig/mango-client'
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet',
-    url: process.env.NEXT_PUBLIC_ENDPOINT || 'https://mango.rpcpool.com',
-    websocket: process.env.NEXT_PUBLIC_ENDPOINT || 'https://mango.rpcpool.com',
+    url:
+      process.env.NEXT_PUBLIC_ENDPOINT ||
+      'https://mango.rpcpool.com/946ef7337da3f5b8d3e4a34e7f88',
+    websocket:
+      process.env.NEXT_PUBLIC_ENDPOINT ||
+      'https://mango.rpcpool.com/946ef7337da3f5b8d3e4a34e7f88',
     custom: false,
   },
   {
